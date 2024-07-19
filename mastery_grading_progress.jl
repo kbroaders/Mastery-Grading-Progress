@@ -30,7 +30,7 @@ md"""# Mastery Grading Progress Plots"""
 
 # ╔═╡ 7509af32-3a8c-466e-8bfa-c35f87f72076
 begin
-	md"""This notebook opens [demo data](URL GOES HERE) by default. Upload your own XLSX here. Be sure the format matches the demo data.
+	md"""This notebook opens demo data by default. Upload your own XLSX here. Be sure the format matches the [demo_grades.xlsx](https://github.com/kbroaders/Mastery-Grading-Progress/blob/main/demo_grades.xlsx) file.
 	
 	$(@bind file_location2 FilePicker([MIME("XLSX")]))
 	"""
